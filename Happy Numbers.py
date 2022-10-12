@@ -1,5 +1,5 @@
 class Solution:
-    def isHappy(self,n : int ) -> bool:
+    def findHappy(self,n : int ) -> bool:
         visit = set()
         
         while n not in visit:
